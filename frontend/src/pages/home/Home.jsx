@@ -54,8 +54,6 @@ export default function Home() {
       } else {
         // Handle error
         console.error(response.data.message);
-        setErrorMessage(response.data.message);
-        setErrorDialogOpen(true);
       }
     } catch (error) {
       console.error("Error:", error.response.data.message);
