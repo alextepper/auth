@@ -1,28 +1,32 @@
-Flask+React Auth & Organizations
-Description
-Project allow users to log in and signup to the system and create organizations, see al other users and add them to the organizations.
+# Flask+React Auth & Organizations
 
-Getting Started
-Dependencies
-Python 3.x
-Flask (Backend)
-React (Frontend)
-Node.js and npm
-Installing
-Clone the repository:
+## Description
+This project allows users to log in and sign up to the system and create organizations. Users can view all other users and add them to the organizations.
 
-bash
-Copy code
+## Getting Started
+
+### Dependencies
+- Python 3.x
+- Flask (Backend)
+- React (Frontend)
+- Node.js and npm
+
+### Installing
+
+#### Clone the repository:
+```bash
 git clone [repository URL]
 cd [repository name]
-Set up the backend (Flask):
+```
+#### Set up the backend (Flask):
 
-bash
+```bash
 Copy code
 # Navigate to the backend directory
 cd backend
-
-# Create a virtual environment (optional but recommended)
+```
+### Create a virtual environment (optional but recommended)
+```bash
 python -m venv venv
 # On Windows
 venv\Scripts\activate
@@ -31,30 +35,34 @@ source venv/bin/activate
 
 # Install Python dependencies
 pip install -r requirements.txt
+```
 Note: It's important to use a virtual environment (venv) for Python projects. It isolates your Python/package environment from other projects and global installations, allowing you to manage dependencies more effectively.
 
-Set up the frontend (React):
+#### Set up the frontend (React):
 
-bash
+```bash
 Copy code
 # Navigate to the frontend directory
 cd frontend
 
 # Install JavaScript dependencies
 npm install
-Executing program
+```
+### Executing program
 Run the Flask backend:
 
-bash
+```bash
 Copy code
 # Make sure you are in the backend directory
 flask run
-Run the React frontend:
+```
+### Run the React frontend:
 
-bash
+```bash
 Copy code
 # Make sure you are in the frontend directory
 cd frontend
 npm start
-Help
+```
+### Help
 Any advise for common problems or issues.
